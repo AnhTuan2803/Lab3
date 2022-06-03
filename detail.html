@@ -82,9 +82,11 @@
         </div>
         <div class="flex grid gap-12 grid-cols-1 lg:grid-cols-2 my-24">
           <div>
-            <h2 class="font-black text-4xl">
-              Big and Juicy Wagyu Beef Cheeseburger
-            </h2>
+            <div id="detail">
+              <h2 class="font-black text-4xl">
+                Big and Juicy Wagyu Beef Cheeseburger
+              </h2>
+            </div>
             <h2 class="font-bold my-4 text-4xl text-red-500">$30</h2>
             <p class="text-lg font-normal">
               Pellentesque habitant morbi tristique senectus et netus et
@@ -106,7 +108,7 @@
               </button>
             </form>
           </div>
-          <div><img src="img/imgDetail/image.png" alt="" /></div>
+          <div id="image"><img src="./img/image.png" alt="" /></div>
         </div>
         <div>
           <h2 class="my-8 text-2xl font-bold">Related Products</h2>
@@ -116,16 +118,18 @@
             <div
               class="shadow hover:shadow-xl group duration-500 rounded-t-3xl hover:bg-gray-50 rounded-b-md"
             >
-              <img
-                src="img/imgDetail/image1.png"
-                class="rounded-3xl w-full"
-                alt=""
-              />
-              <h3
-                class="ml-2 text-lg text-[#111928] group-hover:text-red-500 font-semibold mt-4"
-              >
-                Fresh and Healthy Mixed Mayonnaise Salad
-              </h3>
+              <div>
+                <a href=""
+                  ><img src="img/image1.png" class="rounded-3xl w-full" alt=""
+                /></a>
+              </div>
+              <div>
+                <h3
+                  class="ml-2 text-lg text-[#111928] group-hover:text-red-500 font-semibold mt-4"
+                >
+                  <a href=""> Fresh and Healthy Mixed Mayonnaise Salad</a>
+                </h3>
+              </div>
               <p class="ml-2 text-xl font-semibold my-1 text-red-600">$30</p>
               <button
                 class="text-sm font-semibold my-2 py-3 text-white rounded-md w-full bg-gray-800 hover:text-red-500 hover:bg-gray-900"
@@ -136,16 +140,18 @@
             <div
               class="shadow hover:shadow-xl group duration-500 rounded-t-3xl hover:bg-gray-50 rounded-b-md"
             >
-              <img
-                src="img/imgDetail/image2.png"
-                class="rounded-3xl w-full"
-                alt=""
-              />
-              <h3
-                class="ml-2 text-lg text-[#111928] group-hover:text-red-500 font-semibold mt-4"
-              >
-                The Creamiest Creamy Chicken
-              </h3>
+              <div>
+                <a href=""
+                  ><img src="img/image2.png" class="rounded-3xl w-full" alt=""
+                /></a>
+              </div>
+              <div>
+                <h3
+                  class="ml-2 text-lg text-[#111928] group-hover:text-red-500 font-semibold mt-4"
+                >
+                  <a href=""> The Creamiest Creamy Chicken</a>
+                </h3>
+              </div>
               <p class="ml-2 text-xl font-semibold my-1 text-red-600">$30</p>
               <button
                 class="text-sm font-semibold my-2 py-3 text-white rounded-md w-full bg-gray-800 hover:text-red-500 hover:bg-gray-900"
@@ -156,16 +162,18 @@
             <div
               class="shadow hover:shadow-xl group duration-500 rounded-t-3xl hover:bg-gray-50 rounded-b-md"
             >
-              <img
-                src="img/imgDetail/image3.png"
-                class="rounded-3xl w-full"
-                alt=""
-              />
-              <h3
-                class="ml-2 text-lg text-[#111928] group-hover:text-red-500 font-semibold mt-4"
-              >
-                Fresh and Healthy Mixed Mayonnaise Salad
-              </h3>
+              <div>
+                <a href=""
+                  ><img src="img/image3.png" class="rounded-3xl w-full" alt=""
+                /></a>
+              </div>
+              <div>
+                <h3
+                  class="ml-2 text-lg text-[#111928] group-hover:text-red-500 font-semibold mt-4"
+                >
+                  <a href=""> Fruity Pancake with Orange & Blueberry</a>
+                </h3>
+              </div>
               <p class="ml-2 text-xl font-semibold my-1 text-red-600">$30</p>
               <button
                 class="text-sm font-semibold my-2 py-3 text-white rounded-md w-full bg-gray-800 hover:text-red-500 hover:bg-gray-900"
@@ -213,5 +221,6 @@
         </div>
       </div>
     </div>
+    <script src="./src/js/detail.js"></script>
   </body>
 </html>

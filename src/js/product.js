@@ -49,21 +49,20 @@ const productList = [
     let result = "";
     for (let i = 0; i < products.length; i++) {
         const product = products[i];
-        result +=` <div
-        class="pb-2 shadow hover:shadow-xl duration-300 rounded-3xl bg-gray-50"
+        result +=`<div
+        class="my-2 shadow grid place-items-stretch group hover:shadow-xl duration-500 rounded-t-3xl hover:bg-gray-50 rounded-b-md"
+      > 
+        <a href="./detail.html?id=${product.id}"><img src="${product.img}" class="rounded-3xl w-full" alt="" /></a>
+        <h3
+        class="ml-2 text-lg text-[#111928] group-hover:text-red-500 font-semibold mt-5"
       >
-      <a href="./detail.html?id=${product.id}"> <img src="${product.img}" class="w-full rounded-3xl" alt="" /></a>
-        <h3 class="my-4 ml-2 text-lg font-bold text-red-600">
-        <a href="./detail.html?id=${product.id}">${product.name}</a>
-        </h3>
-        <div class="flex ml-4">
-          <span class="flex mr-8 text-base font-medium text-[#5D5D5D]"
-            ><img src="images/ForkKnife.png" class="mr-2" alt="" />${product.time}
-            Minutes</span
-          ><span class="flex text-base font-medium text-[#5D5D5D]"
-            ><img src="images/Timer.png" class="mr-2" alt="" />${product.type}</span
-          >
-        </div>
+        <a href="./detail.html?id=${product.id}">${product.name}</a></h3>
+        <p class="ml-2 text-xl font-semibold my-2 text-red-600">$30</p>
+        <button
+          class="hover:text-red-500 text-sm font-semibold my-2 py-3 text-white rounded-md w-full bg-gray-800 hover:bg-gray-900"
+        >
+          Add To Cart
+        </button>
       </div>`;
     }
     return result;
