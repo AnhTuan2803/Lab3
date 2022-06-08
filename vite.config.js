@@ -9,7 +9,7 @@ module.exports = defineConfig({
         detail: resolve(__dirname, 'detail.html'),
         products: resolve(__dirname, 'products.html'),
         signin: resolve(__dirname, 'signin.html'),
-        signup: resolve(__dirname, 'signup.html'),
+        signup: resolve(__dirname, 'signup.html')
       }
     }
   }
