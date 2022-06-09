@@ -61,7 +61,7 @@ function showProduct(products){
      ${product.name}
     </h2>`;
     return result;
-}
+};
 function showImage(products){
   //Nếu không phải 1 mảng hoặc không có giá trị trong mảng thì return false
   if(!Array.isArray(products) || products.length ==0) return false;
@@ -75,7 +75,7 @@ function showImage(products){
   result +=`
   <img class="w-full" src="${product.img}" alt="" />`;
   return result;
-}
+};
 
 document.getElementById("detail").innerHTML = showProduct(productList);
 document.getElementById("image").innerHTML = showImage(productList);
