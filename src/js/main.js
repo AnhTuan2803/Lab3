@@ -58,10 +58,10 @@ type: "Sweet",
         </h3>
         <div class="flex ml-4">
           <span class="flex mr-8 text-base font-medium text-[#5D5D5D]"
-            ><img src="images/ForkKnife.png" class="mr-2" alt="" />${product.time}
+            ><img src="https://res.cloudinary.com/dn3jydehx/image/upload/v1654695402/images-Lab3/Timer_k4ovlr.png" class="mr-2" alt="" />${product.time}
             Minutes</span
           ><span class="flex text-base font-medium text-[#5D5D5D]"
-            ><img src="images/Timer.png" class="mr-2" alt="" />${product.type}</span
+            ><img src="https://res.cloudinary.com/dn3jydehx/image/upload/v1654695400/images-Lab3/ForkKnife_g8homq.png" class="mr-2" alt="" />${product.type}</span
           >
         </div>
       </div>`;
